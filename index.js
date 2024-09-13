@@ -16,5 +16,4 @@ const imageSrc = $('img') // return the first 10 images with src attribute
   .get()
   .slice(0, 10);
 
-
-console.log(imageSrc)
+console.log(imageSrc) // log the first 10 img urls if successful
